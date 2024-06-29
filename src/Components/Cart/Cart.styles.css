@@ -1,0 +1,124 @@
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cart-container p{
+  font-size: 24px;
+}
+
+.cart-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.cart-item-details {
+  flex-grow: 1;
+}
+
+.cart-item-details h3 {
+  margin: 0 0 5px;
+}
+
+.cart-item-details p {
+  margin: 0;
+  color: #666;
+}
+
+.cart-item-remove {
+  margin-left: auto;
+}
+
+
+.cart-summary {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-summary p {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.cart-summary button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-summary button:hover {
+  background-color: #0056b3;
+}
+
+  .cart-summarychek button {
+  background-color: #00ff55;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.cart-summarychek button:hover {
+  background-color: #09b300;
+}
+
+.shop-link {
+  margin-top: 50px;
+}
+@media screen and (max-width: 700px) {
+  .cart-item {
+    padding: 8px 0;
+    margin-bottom: 15px;
+  }
+
+  .cart-item img {
+    width: 80px; /* Уменьшаем размер изображения товара для мобильных устройств */
+    height: 80px; /* Уменьшаем размер изображения товара для мобильных устройств */
+    margin-right: 10px;
+  }
+
+  .cart-item-details h3 {
+    font-size: 14px;
+  }
+
+  .cart-item-details p {
+    font-size: 12px;
+  }
+
+  .cart-item-quantity, .cart-item-remove {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  .change-quantity button {
+    font-size: 12px; /* Уменьшаем размер кнопок для мобильной версии */
+    padding: 4px 8px; /* Уменьшаем отступы внутри кнопок */
+  }
+  .shop-link {
+    margin-left: 70px;
+  }
+}
